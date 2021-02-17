@@ -11,6 +11,7 @@ def cls_shell():
     print("\n" * 100)
 
 def ini(word):
+    cls_shell()
     print(word)
     time.sleep(0.3)
     cls_shell()
@@ -41,16 +42,27 @@ def initialization():
     print('Инициализация завершена')
     time.sleep(1)
     cls_shell()
+    print('Развертывание библиотек')
     print('1%')
     time.sleep(0.2)
+    cls_shell()
+    print('Развертывание библиотек')
     print('11%')
     time.sleep(0.3)
+    cls_shell()
+    print('Развертывание библиотек')
     print('46%')
     time.sleep(0.3)
+    cls_shell()
+    print('Развертывание библиотек')
     print('72%')
     time.sleep(0.6)
+    cls_shell()
+    print('Развертывание библиотек')
     print('97%')
     time.sleep(0.25)
+    cls_shell()
+    print('Развертывание библиотек')
     print('100%')
     time.sleep(0.4)
     cls_shell()
@@ -111,6 +123,13 @@ def auth(gen_pass=0):
         gen_password()
     elif a == 'exit':
         sys.exit(1)
+    elif a == 'wait':
+        print('waiting process is require')
+        time.sleep(0.8)
+        wai = input('Waiting with....?|| : ')
+        for i in range(10):
+            ini(wai)
+        auth()
     else:
         print('Exception: no command')
         auth()
@@ -240,8 +259,7 @@ def autorization(gen_pass=0):
         print('...')
         autorization()
 
-
-def main():
+def draw():
     didgit = turtle.textinput('PRESS TOKEN', 'WRITE YOUR IDANTIFICATION ID')
     TURTLE_SIZE = 20
 
@@ -297,8 +315,40 @@ def main():
     turtle.write(s, align = 'center', font = (x, 30, 'bold'))
     
     turtle.exitonclick()
-    initialization()    
 
+def debug():
+    print('start time: 0.58 ms') 
+    
+def main():
+    # draw()
+    print('WARNING!!!')
+    time.sleep(0.5)
+    print('<@Drow> method is temporarily inactive')
+    print('error detected: 00004B status 0')
+    conti = input('Continue execution(?):_')
+    cls_shell()
+    print('Deployed successfully:')
+    time.sleep(0.3)
+    print('Errors: 0, Warnings: 1')
+    time.sleep(2)
+    cls_shell()
+    print('Debug: OK')
+    print('Launch via: 3')
+    time.sleep(1)
+    cls_shell()
+    print('Debug: OK')
+    print('Launch via: 2')
+    time.sleep(1)
+    cls_shell()
+    print('Debug: OK')
+    print('Launch via: 1')
+    time.sleep(0.5)
+    cls_shell()
+    debug()
+    cls_shell()
+    time.sleep(1)
+    initialization()
+    
 main()
 
 
