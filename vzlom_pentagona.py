@@ -1,8 +1,12 @@
 import time
 from turtle import Turtle, Screen
 import turtle
+import os
 
 print("PENTAGON HACKING PROCESS IS SUCCESS")
+
+def cls_shell():
+    # os.system(['clear', 'cls'][os.name == os.sys.platform])
 
 def initialization():
     print('Инициализация...')
@@ -19,7 +23,9 @@ def initialization():
     print('Сервер успешно запущен')
     print('\\Подготовка компонентов//')
     print('12%')
-    time.sleep(0.16)
+    os.system('clear')
+    print("\n" * 10)
+    time.sleep(0.3)
     print('15%')
     print('32%')
     time.sleep(0.5)
@@ -31,6 +37,7 @@ def initialization():
     print('Синхронизация с BOTNET')
     time.sleep(0.5)
     print('...')
+    cls_shell()
     print('Синхронизация выполнена')
     print('stable build')
     auth()
@@ -138,9 +145,16 @@ def autorization(gen_pass=0):
         else:
             print('БЕГИ УЖЕ БЛТБ ДЕБИЛ НАХЕНА ТЫ С КОМПОМ ОБЩАЕШЬСЯ')
         time.sleep(1)
+        len_ = 0
         for i in range(100):
             time.sleep(0.5)
-            print('бегите')
+            # print('бегите')
+            # print('БЕГИТЕ')
+            len_ += 1
+            c = 'БЕГИТЕ'
+            for j in range(len_):
+                print(f"{' ' * (len_ - j)}{c*j}||{c*j}")
+            print(' ' * len_ + "||")
         auth()
     
     else:
@@ -192,7 +206,7 @@ def main():
 
     screen = turtle.Screen()
 
-    image = r"F:\10им\original.gif"
+    image = r"F:\10им\razuvaev\vzlom\original.gif"
 
     screen.addshape(image)
     turtle.shape(image)
@@ -215,7 +229,7 @@ def main():
     circle.pendown()
     circle.circle(100)
     screen = turtle.Screen()
-    image2 = r"F:\10им\s120.gif"
+    image2 = r"F:\10им\razuvaev\vzlom\s120.gif"
     
     screen.addshape(image2)
     
