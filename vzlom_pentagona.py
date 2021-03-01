@@ -3,6 +3,7 @@ from turtle import Turtle, Screen
 import turtle
 import os
 import sys
+from turtle import *
 
 print("PENTAGON HACKING PROCESS IS SUCCESS")
 
@@ -108,18 +109,20 @@ def initialization():
     auth()
 
 def auth(gen_pass=0):
-    a = input('Команда:')
-    if a == '$vzlom_pentagona':
+    a = input('$')
+    if a == 'vzlom_pentagona':
         autorization()
-    elif a == '$help':
+    elif a == 'help':
         print('[$vzlom_pentagona(no param)]')
         print('[$vzlom_fsb(no param)]')
         print('[$exit(no param)]')
         print('[$gen_password]')
         print('[$vzlom_halmetovoi]')
         print('[$vzlom_bobra]')
+        print('[$exit]')
+        print('[$advanced_hacking]')
         auth()
-    elif a == '$gen_password':
+    elif a == 'gen_password':
         gen_password()
     elif a == 'exit':
         sys.exit(1)
@@ -130,9 +133,82 @@ def auth(gen_pass=0):
         for i in range(10):
             ini(wai)
         auth()
+    elif a == 'advanced_hacking':
+        advanced_hacking()
     else:
         print('Exception: no command')
+        print('try $help for help')
         auth()
+
+def advanced_hacking():
+    print('Advanced hacking mode is active')
+    time.sleep(1)
+    ini('Calculating Space Requirments')
+    ini('Compressing Texture')
+    site = input('Input path:_')
+    print('Analyzing ', site)
+    print('Compilation Started of TPS Reports')
+    ini('Waiting for response')
+    print('Waiting for response')
+    print('Success')
+    time.sleep(0.3)
+    cls_shell()
+    ini('Entering Security Console')
+    advanced_hacking_secure_console_progress()
+    print('0.231212 0.12124142141')
+    time.sleep(0.4)
+    print('0.21424 0.3843478 0.7859748')
+    time.sleep(0.5)
+    ini('Waiting for response...')
+    print('Performing DNS Lookups for Texture')
+    print('11%')
+    time.sleep(0.2)
+    cls_shell()
+    print('Performing DNS Lookups for Texture')
+    print('37%')
+    time.sleep(0.3)
+    cls_shell()
+    print('Performing DNS Lookups for Texture')
+    print('52%')
+    time.sleep(0.4)
+    cls_shell()
+    print('Performing DNS Lookups for Texture')
+    print('76%')
+    time.sleep(0.3)
+    cls_shell()
+    print('Performing DNS Lookups for Texture')
+    print('97%')
+    time.sleep(1)
+    cls_shell()
+    print('Performing DNS Lookups for Texture')
+    print('100%')
+    time.sleep(0.4)
+    cls_shell()
+    print('Success')
+    time.sleep(1.2)
+    ini('Access Granted..')
+    ini('Access Granted..')
+    auth()
+
+def advanced_hacking_secure_console_progress():
+    screen = turtle.Screen()
+    circle = turtle.Turtle()
+    circle.ht()
+    bgcolor("black")
+
+    turtle.title("Turtle Drawing")
+    circle.shape("turtle")
+    circle.pensize(5)
+    circle.pencolor("cyan")
+
+    circle.dot(20)
+    circle.penup()
+    circle.goto(0, -100)
+    circle.pendown()
+    circle.circle(100)
+    time.sleep(0.5)
+    turtle.exitonclick()
+    
 
 def gen_password():
     time.sleep(1)
