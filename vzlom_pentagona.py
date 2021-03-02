@@ -110,17 +110,14 @@ def initialization():
 
 def auth(gen_pass=0):
     a = input('$')
-    if a == 'vzlom_pentagona':
-        autorization()
+    if a == 'old_hack':
+        old_autorization()
     elif a == 'help':
-        print('[$vzlom_pentagona(no param)]')
-        print('[$vzlom_fsb(no param)]')
-        print('[$exit(no param)]')
-        print('[$gen_password]')
-        print('[$vzlom_halmetovoi]')
-        print('[$vzlom_bobra]')
-        print('[$exit]')
-        print('[$advanced_hacking]')
+        print('$advanced_hacking')
+        print('$old_authorization')
+        print('$vzlom_halmetovoi')
+        print('$wait')
+        print('$exit')
         auth()
     elif a == 'gen_password':
         gen_password()
@@ -129,7 +126,7 @@ def auth(gen_pass=0):
     elif a == 'wait':
         print('waiting process is require')
         time.sleep(0.8)
-        wai = input('Waiting with....?|| : ')
+        wai = input('Waiting with..|| : ')
         for i in range(10):
             ini(wai)
         auth()
@@ -139,6 +136,10 @@ def auth(gen_pass=0):
         print('Exception: no command')
         print('try $help for help')
         auth()
+
+def vzlom_halmetovoi():
+    print('vzlom_halmetovoy process is run')
+    print('not yet completed, please try later')
 
 def advanced_hacking():
     print('Advanced hacking mode is active')
@@ -232,7 +233,7 @@ def gen_password():
     print('Your generated password: ', gen_pass)
     auth(gen_pass)
     
-def autorization(gen_pass=0):
+def old_autorization(gen_pass=0):
     password = input('Введите код доступа: ')
     if password == '123321':
         print('Процесс пошёл!')
