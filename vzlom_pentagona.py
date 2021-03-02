@@ -126,7 +126,7 @@ def auth(gen_pass=0):
     elif a == 'wait':
         print('waiting process is require')
         time.sleep(0.8)
-        wai = input('Waiting with..|| : ')
+        wai = input('Waiting with..|?| : ')
         for i in range(10):
             ini(wai)
         auth()
