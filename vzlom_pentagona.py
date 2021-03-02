@@ -187,7 +187,9 @@ def advanced_hacking():
     print('Success')
     time.sleep(1.2)
     ini('Access Granted..')
-    ini('Access Granted..')
+    print('Launching Admin Panel')
+    time.sleep(1)
+    
     auth()
 
 def advanced_hacking_secure_console_progress():
@@ -397,10 +399,14 @@ def debug():
     
 def main():
     # draw()
+    print('Debugging system is already inactive')
+    debug()
     print('WARNING!!!')
     time.sleep(0.5)
     print('<@Drow> method is temporarily inactive')
+    time.sleep(0.5)
     print('error detected: 00004B status 0')
+    time.sleep(0.2)
     conti = input('Continue execution(?):_')
     cls_shell()
     print('Deployed successfully:')
