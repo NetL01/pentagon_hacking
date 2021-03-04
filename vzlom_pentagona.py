@@ -431,7 +431,11 @@ def main():
     cls_shell()
     time.sleep(1)
     initialization()
-    
+
+def Security_Vidget_Panel():
+    pass
+
+
 main()
 
 
