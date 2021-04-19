@@ -19,23 +19,29 @@ def palka():
     r = random.randint(1,5)
     for i in range(r):
         cls_shell()
-        print('| ')
+        print('|||||||||||||||||||| ')
         time.sleep(0.4)
         cls_shell()
-        print('/ ')
+        print('//////////////////// ')
         time.sleep(0.4)
         cls_shell()
-        print('- ')
+        print('-------------------- ')
         time.sleep(0.4)
         cls_shell()
-        print('\ ')
+        print('\\\\\\\\\\\\\\\\\\\\ ')
+        time.sleep(0.4)
+        csl_shell()
+        print('||||||||||||||||||||')
+    cls_shell()
     
 
 def humanizer_initial():
     time.sleep(0.5)
     print('Starting the process of the manual start simulation mode')
-    
+    time.sleep(2)
+    palka()
     print('Humanizer version: 1.0.3.e stable build')
+    time.sleep(0.4)
     print("PLAYBACK.humanizer (c) by NetL01 and RTeam")
 
 def ini(word):
@@ -181,6 +187,12 @@ def advanced_hacking():
     print('Success')
     time.sleep(0.3)
     cls_shell()
+    time.sleep(0.4)
+    a = input('Use a Humanizer to execute a command? (y/N): _')
+    if a == 'y' or a == 'Y':
+        ini('Preparation of components')
+        humanizer_initial()
+        
     ini('Entering Security Console')
     advanced_hacking_secure_console_progress()
     print('0.231212 0.12124142141')
@@ -429,7 +441,6 @@ def debug():
     
 def main():
     # draw()
-    palka()
     print('Debugging system is already inactive')
     debug()
     print('WARNING!!!')
