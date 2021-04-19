@@ -4,12 +4,39 @@ import turtle
 import os
 import sys
 from turtle import *
+import random
 
 print("PENTAGON HACKING PROCESS IS SUCCESS")
 
 def cls_shell():
     # os.system(['clear', 'cls'][os.name == os.sys.platform])
     print("\n" * 100)
+
+def connect_server():
+    print('Connect to the nearest server')
+
+def palka():
+    r = random.randint(1,5)
+    for i in range(r):
+        cls_shell()
+        print('| ')
+        time.sleep(0.4)
+        cls_shell()
+        print('/ ')
+        time.sleep(0.4)
+        cls_shell()
+        print('- ')
+        time.sleep(0.4)
+        cls_shell()
+        print('\ ')
+    
+
+def humanizer_initial():
+    time.sleep(0.5)
+    print('Starting the process of the manual start simulation mode')
+    
+    print('Humanizer version: 1.0.3.e stable build')
+    print("PLAYBACK.humanizer (c) by NetL01 and RTeam")
 
 def ini(word):
     cls_shell()
@@ -402,6 +429,7 @@ def debug():
     
 def main():
     # draw()
+    palka()
     print('Debugging system is already inactive')
     debug()
     print('WARNING!!!')
@@ -410,9 +438,9 @@ def main():
     time.sleep(0.5)
     print('error detected: 00004B status 0')
     time.sleep(0.2)
-    conti = input('Continue execution(?):_')
+    conti = input('Continue execution (y/N):_ ')
     cls_shell()
-    print('Deployed successfully:')
+    print('Deployed successfully')
     time.sleep(0.3)
     print('Errors: 0, Warnings: 1')
     time.sleep(2)
