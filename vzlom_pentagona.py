@@ -579,42 +579,5 @@ turtle.Terminator''')
         ini('System debug start')    
         debug()
 
-
-
-
-        
-    
-main()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+if __name__ == "__main__":
+    main()
