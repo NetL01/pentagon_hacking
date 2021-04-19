@@ -192,43 +192,43 @@ def advanced_hacking():
     if a == 'y' or a == 'Y':
         ini('Preparation of components')
         humanizer_initial()
-        
-    ini('Entering Security Console')
-    advanced_hacking_secure_console_progress()
-    print('0.231212 0.12124142141')
-    time.sleep(0.4)
-    print('0.21424 0.3843478 0.7859748')
-    time.sleep(0.5)
-    ini('Waiting for response...')
-    print('Performing DNS Lookups for Texture')
-    print('11%')
-    time.sleep(0.2)
-    cls_shell()
-    print('Performing DNS Lookups for Texture')
-    print('37%')
-    time.sleep(0.3)
-    cls_shell()
-    print('Performing DNS Lookups for Texture')
-    print('52%')
-    time.sleep(0.4)
-    cls_shell()
-    print('Performing DNS Lookups for Texture')
-    print('76%')
-    time.sleep(0.3)
-    cls_shell()
-    print('Performing DNS Lookups for Texture')
-    print('97%')
-    time.sleep(1)
-    cls_shell()
-    print('Performing DNS Lookups for Texture')
-    print('100%')
-    time.sleep(0.4)
-    cls_shell()
-    print('Success')
-    time.sleep(1.2)
-    ini('Access Granted..')
-    print('Launching Admin Panel')
-    time.sleep(1)
+    else:
+        ini('Entering Security Console')
+        advanced_hacking_secure_console_progress()
+        print('0.231212 0.12124142141')
+        time.sleep(0.4)
+        print('0.21424 0.3843478 0.7859748')
+        time.sleep(0.5)
+        ini('Waiting for response...')
+        print('Performing DNS Lookups for Texture')
+        print('11%')
+        time.sleep(0.2)
+        cls_shell()
+        print('Performing DNS Lookups for Texture')
+        print('37%')
+        time.sleep(0.3)
+        cls_shell()
+        print('Performing DNS Lookups for Texture')
+        print('52%')
+        time.sleep(0.4)
+        cls_shell()
+        print('Performing DNS Lookups for Texture')
+        print('76%')
+        time.sleep(0.3)
+        cls_shell()
+        print('Performing DNS Lookups for Texture')
+        print('97%')
+        time.sleep(1)
+        cls_shell()
+        print('Performing DNS Lookups for Texture')
+        print('100%')
+        time.sleep(0.4)
+        cls_shell()
+        print('Success')
+        time.sleep(1.2)
+        ini('Access Granted..')
+        print('Launching Admin Panel')
+        time.sleep(1)
 
     #go_pyqt5launching
     
@@ -437,12 +437,29 @@ def draw():
     turtle.exitonclick()
 
 def debug():
-    print('start time: 0.58 ms') 
+    print
+    print('ATTENTION! FALL IN PRODUCTIVITY!')
+    time.sleep(2)
+        
+    print('Starting the configuration crash recovery process')
+    ini('')
+    print('Debug: finding error cannot be fixing')
+    print('Verdict: cannot be fixed')
+    print('Error: WINDOWS PERMISSION PROHIBITED (_ws#000041e)')
+    time.sleep(4)
+    ini('Waiting for verdict DEBUG system')
+    time.sleep(2)
+    print('In order not to interrupt the execution of the operation,')
+    ini('reboot')
+    time.sleep(2)
+    print('reboot process success, starting initial method: code(true)')
+    time.sleep(4)
+    initialization()
     
 def main():
     # draw()
     print('Debugging system is already inactive')
-    debug()
+    print('start time: 0.58 ms')
     print('WARNING!!!')
     time.sleep(0.5)
     print('<@Drow> method is temporarily inactive')
@@ -450,6 +467,8 @@ def main():
     print('error detected: 00004B status 0')
     time.sleep(0.2)
     conti = input('Continue execution (y/N):_ ')
+    if conti == 'n' or conti == 'N':
+        conti = 0
     cls_shell()
     print('Deployed successfully')
     time.sleep(0.3)
@@ -468,10 +487,102 @@ def main():
     print('Launch via: 1')
     time.sleep(0.5)
     cls_shell()
-    debug()
+    print('start time: 1.1124 ms')
     cls_shell()
     time.sleep(1)
-    initialization()
+    # main try!
+    try:
+        a = 5/conti
+        initialization()
+    except:
+        print('Error: unauthorized crash of drow method')
+        time.sleep(1)
+        print('Error: unauthorized crash of the initial method')
+        time.sleep(2)
+        cls_shell()
+        print('Starting the kernel isolation process ')
+        ini('Core isolation')
+        time.sleep(2)
+        print('''File "C:\Python39\lib\turtle.py", line 3814, in __init__
+    RawTurtle.__init__(self, Turtle._screen,
+  File "C:\Python39\lib\turtle.py", line 2558, in __init__
+    self._update()
+  File "C:\Python39\lib\turtle.py", line 2661, in _update
+    self._update_data()
+  File "C:\Python39\lib\turtle.py", line 2647, in _update_data
+    self.screen._incrementudc()
+  File "C:\Python39\lib\turtle.py", line 1293, in _incrementudc
+    raise Terminator
+turtle.Terminator''')
+        print('''Traceback (most recent call last):
+  File "F:\10им\razuvaev\vzlom\vzlom_pentagona.py", line 473, in <module>
+    time.sleep(1)
+  File "F:\10им\razuvaev\vzlom\vzlom_pentagona.py", line 471, in main
+    debug()
+  File "F:\10им\razuvaev\vzlom\vzlom_pentagona.py", line 139, in initialization
+    cls_shell()
+  File "F:\10им\razuvaev\vzlom\vzlom_pentagona.py", line 168, in auth
+    else:
+  File "F:\10им\razuvaev\vzlom\vzlom_pentagona.py", line 151, in auth
+    print('$vzlom_halmetovoi')
+  File "F:\10им\razuvaev\vzlom\vzlom_pentagona.py", line 164, in auth
+    ini(wai)
+  File "F:\10им\razuvaev\vzlom\vzlom_pentagona.py", line 232, in advanced_hacking
+
+  File "F:\10им\razuvaev\vzlom\vzlom_pentagona.py", line 164, in auth
+    ini(wai)
+  File "F:\10им\razuvaev\vzlom\vzlom_pentagona.py", line 194, in advanced_hacking
+    humanizer_initial()
+  File "F:\10им\razuvaev\vzlom\vzlom_pentagona.py", line 236, in advanced_hacking_secure_console_progress
+  ''')
+        print('Unsuccessful, kernel core isolation was not performed')
+        time.sleep(3)
+        cls_shell()
+        print('35 out of 41 functions gave an error')
+        time.sleep(2)
+        print('Launching an emergency system restore system ')
+        ini('process...')
+        print('RESTORE SYSTEM FAILED: code 00.31(main faild, inactive core)')
+        time.sleep(2)
+        print('ATTENTION! CRITICAL ERROR')
+        time.sleep(0.2)
+        print('initial method is inactive')
+        time.sleep(1)
+        print('ATTENTION! CRITICAL ERROR')
+        time.sleep(0.2)
+        print('backlow method is inactive')
+        time.sleep(0.2)
+        print('ATTENTION! CRITICAL ERROR')
+        time.sleep(0.2)
+        print('ATTENTION! CRITICAL ERROR')
+        time.sleep(0.2)
+        print('ATTENTION! CRITICAL ERROR')
+        time.sleep(0.2)
+        print('ATTENTION! CRITICAL ERROR')
+        time.sleep(0.2)
+        print('STOPED CRASH: code(None)')
+        time.sleep(0.2)
+        print('ATTENTION! CRITICAL ERROR')
+        time.sleep(0.2)
+        print('ATTENTION! CRITICAL ERROR')
+        time.sleep(0.2)
+        print('ATTENTION! CRITICAL ERROR')
+        time.sleep(0.2)
+        print('STOPED CRASH: code(None)')
+        time.sleep(0.2)
+        print('ATTENTION! CRITICAL ERROR')
+        time.sleep(1)
+        print('All systems are inactive! Start emergency REBOOT')
+        time.sleep(4)
+        print('Start rewriting configurations ')
+
+        ini('System debug start')    
+        debug()
+
+
+
+
+        
     
 main()
 
