@@ -469,6 +469,8 @@ def main():
     conti = input('Continue execution (y/N):_ ')
     if conti == 'n' or conti == 'N':
         conti = 0
+    else:
+        conti = 1
     cls_shell()
     print('Deployed successfully')
     time.sleep(0.3)
