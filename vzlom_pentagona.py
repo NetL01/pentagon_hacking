@@ -30,7 +30,7 @@ def palka():
         cls_shell()
         print('\\\\\\\\\\\\\\\\\\\\ ')
         time.sleep(0.4)
-        csl_shell()
+        cls_shell()
         print('||||||||||||||||||||')
     cls_shell()
     
