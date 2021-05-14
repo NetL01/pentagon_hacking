@@ -195,6 +195,8 @@ def auth(gen_pass=0):
         for i in range(10):
             ini(wai)
         auth()
+    elif a == 'kill':
+	squad()
     elif a == 'advanced_hacking':
         advanced_hacking()
     elif a == 'amongusdraw':
@@ -203,6 +205,16 @@ def auth(gen_pass=0):
         print('Exception: no command')
         print('try $help for help')
         auth()
+
+def squad():
+    for i in range(1, 10):
+        print('|' + ('█' * n) + '|')
+	n += 1
+	time.sleep(0.5)
+    cls_shell()
+    print('Success')
+    time.sleep(1)
+    sys.exit(1)
 
 def vzlom_halmetovoi():
     print('vzlom_halmetovoy process is run')
