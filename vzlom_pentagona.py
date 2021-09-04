@@ -196,7 +196,7 @@ def auth(gen_pass=0):
             ini(wai)
         auth()
     elif a == 'kill':
-	squad()
+        squad()
     elif a == 'advanced_hacking':
         advanced_hacking()
     elif a == 'amongusdraw':
@@ -207,10 +207,12 @@ def auth(gen_pass=0):
         auth()
 
 def squad():
+    n = 0
     for i in range(1, 10):
         print('|' + ('█' * n) + '|')
-	n += 1
-	time.sleep(0.5)
+        n += 1
+        time.sleep(0.5)
+        cls_shell()
     cls_shell()
     print('Success')
     time.sleep(1)
